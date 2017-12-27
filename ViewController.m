@@ -27,13 +27,13 @@
     [super viewDidLoad];
 
 
-//    NSDateFormatter *fam = [[NSDateFormatter alloc]init];
-//    [fam setDateFormat:@"EEEE,dd"];
-//    NSString *string1 = [fam stringFromDate:[NSDate date]];
-//    NSLog(@"%@",string);
-//    [fam setDateFormat:@"MMMM"];
-//     NSString *string = [fam stringFromDate:[NSDate date]];
-//    NSLog(@"%@",string);
+    NSDateFormatter *fam = [[NSDateFormatter alloc]init];
+    [fam setDateFormat:@"EEEE,dd"];
+    NSString *string1 = [fam stringFromDate:[NSDate date]];
+    NSLog(@"%@",string1);
+    [fam setDateFormat:@"MMMM"];
+     NSString *string = [fam stringFromDate:[NSDate date]];
+    NSLog(@"%@",string);
     
    
     // Do any additional setup after loading the view, typically from a nib.
